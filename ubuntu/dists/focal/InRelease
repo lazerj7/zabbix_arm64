@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: lazerj7.github.io/zabbix_arm64
+Label: lazerj7.github.io/zabbix_arm64
+Codename: focal
+Date: Tue, 27 Oct 2020 17:16:07 UTC
+Architectures: arm64
+Components: main
+Description: Zabbix rebuilt for arm64
+MD5Sum:
+ e1aaaf01769042524e4beb62c4b5540e 15209 main/binary-arm64/Packages
+ 65c0dc5e1d44775f464ad3964b89dfd3 3069 main/binary-arm64/Packages.gz
+ 61cb79c5b0778d1c4cd844ced754a2fa 151 main/binary-arm64/Release
+ c9da96e26e6ef215f8a8b597bc83ea76 2320 main/source/Sources
+ bbeeb67760d3cf6fdd75206650ee03c1 926 main/source/Sources.gz
+ 92b9577456f271b126277895c7aee01a 152 main/source/Release
+SHA1:
+ be57a4155629f0d36e9228de68ad9f5382efdfaf 15209 main/binary-arm64/Packages
+ 4829c54c628f988d4d49648e3f484a733d9888a9 3069 main/binary-arm64/Packages.gz
+ da06521c86546761ce9854b472d3d266fce54fd0 151 main/binary-arm64/Release
+ 5a933ad81854b8ef17e597bc89113d1d554880dd 2320 main/source/Sources
+ 764b15187d9dddc4e1d1203126c4ca151c4fb37b 926 main/source/Sources.gz
+ 092d9066ec85b0833374229bd5cb9bdb5bea3824 152 main/source/Release
+SHA256:
+ 522affbd8dc44d3399bc105a05785869e495f0548fc69e184e8a3a4d0b927299 15209 main/binary-arm64/Packages
+ 6205f628d22c02243597cbb6c255ed0b374d4b02f8905bee7a3eb5d3dec33116 3069 main/binary-arm64/Packages.gz
+ ec4234365ad2f448387fbf4a2b1a623607e23237a11bee9059c1fdc1efdf671e 151 main/binary-arm64/Release
+ 5193135c0df25718b119037eb563d3d122a5eda0c2d85f45ee417d4388fcb113 2320 main/source/Sources
+ 683d88b92ec9ab0eb1e5cf5637dbdd00e4c10725b2a99393839a42781d210686 926 main/source/Sources.gz
+ d7ab563959542b65ad1304364dab47151791236e0eccf12efb1ab4c1c9a6bc73 152 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEVvHdm8G2d5I5Gjhe8PL058kjkfsFAl+YVdgACgkQ8PL058kj
+kfvCpA//Seuf/mSNUBoq02iAlvuqRq7joUvkHPGARcUSqbRGryowL8pr6YzoqbKF
+zSXkZX5m+OoOUyQGo8xmHj0MtjZQv4jhATOAA/0crNPeWdtbPoith37HCP2B810J
+8QTFBL0a6XaFKtHZk3a8UVQ+VXqeQ/xEsKg9bB3C1DM6GNw6brl8y/uVzZxcjNzw
+2lXWg6pfQF7MYKuHkR/ay5+qPJ9/QYcDSHSEH4xYtvm4NXHKuaXolz/rYZG+5DDn
+4qzwUGAlmOBPm+6FMBSYM4QY8ld/OYAxsa5tOC+50vPHMdmBlMH3mnEt6APnIH4Y
+CgcevJPQmmCnTMl2Uv4bZ1DlyO6IyVvEGgDwDuuIE8PPoh1/VQwAY7GZej5fB3NS
+KNHEwZnOjHbTUseBhhhGWg7ea83bJ7jMmcy8T52bHlfV4bASOIGxy/SqdizyVc8A
+C4EX9aUFdSA8HorrNHapj4Tu78YUbX0NAM/8PQEe4RxJOX/XsUX2CfhKu8v1pTP1
+XDAqiNN7QJcii89vsz0q/1ROD8wDXmm8/vQHPTRzOAA6zSwiNxHqzoPl7sNpPLhN
+wNz51w/dfrWNHb0yL+nZZ+VBjvs6Y1NjAPA+S94TnN6Zwe4ee9w1FVBaksHRxmT0
+DjGuLl/UhcVZM1jPDQ0ZZo/t3N97j5nI1XyaRB0Q2JdPrQV0Ajg=
+=PAgC
+-----END PGP SIGNATURE-----

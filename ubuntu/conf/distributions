@@ -1,0 +1,7 @@
+Origin: lazerj7.github.io/zabbix_arm64
+Label: lazerj7.github.io/zabbix_arm64
+Codename: focal
+Components: main
+Architectures: arm64 source
+Description: Zabbix rebuilt for arm64
+SignWith: C92391FB

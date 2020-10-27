@@ -1,0 +1,5 @@
+Component: main
+Origin: lazerj7.github.io/zabbix_arm64
+Label: lazerj7.github.io/zabbix_arm64
+Architecture: arm64
+Description: Zabbix rebuilt for arm64

@@ -1,0 +1,340 @@
+Package: zabbix-agent
+Source: zabbix
+Version: 1:5.0.4-1+focalbuild1
+Architecture: arm64
+Maintainer: Zabbix Packager <info@zabbix.com>
+Installed-Size: 560
+Depends: libc6 (>= 2.17), libcurl4 (>= 7.16.2), libldap-2.4-2 (>= 2.4.7), libpcre3, libssl1.1 (>= 1.1.1), zlib1g (>= 1:1.2.0), adduser, lsb-base
+Suggests: logrotate
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: net
+Filename: pool/main/z/zabbix/zabbix-agent_5.0.4-1+focalbuild1_arm64.deb
+Size: 200788
+SHA256: e368d166b09aa5399d8c5a96ad7096e3b59350f11f9c377a00c402f92126e7fa
+SHA1: 24c9a96de99e9be5535014b045099de23a3ee60c
+MD5sum: 1d5f4c42b57654891e0771607acefc88
+Description: Zabbix network monitoring solution - agent
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides the software needed to monitor a host using a
+ Zabbix agent.
+
+Package: zabbix-agent2
+Source: zabbix
+Version: 1:5.0.4-1+focalbuild1
+Architecture: arm64
+Maintainer: Zabbix Packager <info@zabbix.com>
+Installed-Size: 14587
+Depends: libc6 (>= 2.28), libcurl4 (>= 7.16.2), libpcre3, libssl1.1 (>= 1.1.1), zlib1g (>= 1:1.2.0), adduser, lsb-base
+Suggests: logrotate
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: net
+Filename: pool/main/z/zabbix/zabbix-agent2_5.0.4-1+focalbuild1_arm64.deb
+Size: 3921912
+SHA256: 5d0730ddd40a6f415ec50c43080092faf6560d5ab296330c59850bd5bf05f5fb
+SHA1: 5afd1de9332422f6d2572784ecbfbee6fb6e2142
+MD5sum: 713e5d061804040f0978ff97bac3bae7
+Description: Zabbix network monitoring solution - agent
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides new implementation of zabbix agent.
+
+Package: zabbix-apache-conf
+Source: zabbix
+Version: 1:5.0.4-1+focalbuild1
+Architecture: all
+Maintainer: Zabbix Packager <info@zabbix.com>
+Installed-Size: 17
+Depends: zabbix-frontend-php, apache2 | httpd, libapache2-mod-php | php
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: net
+Filename: pool/main/z/zabbix/zabbix-apache-conf_5.0.4-1+focalbuild1_all.deb
+Size: 5556
+SHA256: 6a8c8f124d9edf6d670e96254359a0a5cab81d324e1fcff8c961165b843d55d3
+SHA1: ff60ba5ca476c9e686f74fc1d5973a012ba6dd61
+MD5sum: 7e638d91ff1b7d9fb205d931635dec3b
+Description: Zabbix network monitoring solution - apache configuration for front-end
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides automatic configuration of zabbix frontend with apache web server.
+
+Package: zabbix-frontend-php
+Source: zabbix
+Version: 1:5.0.4-1+focalbuild1
+Architecture: all
+Maintainer: Zabbix Packager <info@zabbix.com>
+Installed-Size: 18600
+Depends: php-mbstring, php-bcmath, php-xml, php-mysql | php-pgsql, php-gd, php-ldap, ttf-dejavu-core | ttf-japanese-gothic
+Suggests: zabbix-apache-conf, zabbix-nginx-conf
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: net
+Filename: pool/main/z/zabbix/zabbix-frontend-php_5.0.4-1+focalbuild1_all.deb
+Size: 2424932
+SHA256: 307ea77cf25d5864bcb22202394c3445835ac1a4df24c9ceeadefa9f4f08ed68
+SHA1: 1da2f48d389d0435e8e1b994a9860a58f2d0efb9
+MD5sum: b57eb593c48dc115ff05a21514985f2c
+Description: Zabbix network monitoring solution - PHP front-end
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides a web-browsable front-end to the Zabbix server, which
+ can display graphs of the data collected from clients.
+
+Package: zabbix-get
+Source: zabbix
+Version: 1:5.0.4-1+focalbuild1
+Architecture: arm64
+Maintainer: Zabbix Packager <info@zabbix.com>
+Installed-Size: 207
+Depends: libc6 (>= 2.17), libssl1.1 (>= 1.1.1), zlib1g (>= 1:1.2.0)
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: net
+Filename: pool/main/z/zabbix/zabbix-get_5.0.4-1+focalbuild1_arm64.deb
+Size: 78468
+SHA256: 4e52e005e6f713d0cec5d76320b0a22b7e78cddb15c0279796d6078e564fd6da
+SHA1: 5ad958d97dc640a092ff403395c0069d6cea9e16
+MD5sum: f402c9ad9101b41f3d693b5a737c8ce4
+Description: Zabbix network monitoring solution - get
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides the command line utility needed to get data from agent.
+
+Package: zabbix-java-gateway
+Source: zabbix
+Version: 1:5.0.4-1+focalbuild1
+Architecture: all
+Maintainer: Zabbix Packager <info@zabbix.com>
+Installed-Size: 662
+Depends: adduser, lsb-base, default-jre-headless
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: net
+Filename: pool/main/z/zabbix/zabbix-java-gateway_5.0.4-1+focalbuild1_all.deb
+Size: 567080
+SHA256: 1a6951908e649de8dddebc83d312db6bb696e55544da9cfb3881d6c7c2082024
+SHA1: 11e9ae97bcb0ea2f529f0d79e66489573026b859
+MD5sum: 0b4690b91418ad571d13733f93d86f49
+Description: Zabbix network monitoring solution - java-gateway
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides the software needed to monitor a Java application
+ using a Zabbix Java gateway. It collects information from JMX agent.
+
+Package: zabbix-js
+Source: zabbix
+Version: 1:5.0.4-1+focalbuild1
+Architecture: arm64
+Maintainer: Zabbix Packager <info@zabbix.com>
+Installed-Size: 562
+Depends: libc6 (>= 2.29), libcurl4 (>= 7.16.2), libpcre3, libssl1.1 (>= 1.1.0)
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: net
+Filename: pool/main/z/zabbix/zabbix-js_5.0.4-1+focalbuild1_arm64.deb
+Size: 221060
+SHA256: f49f593558525d111ecab958cde2a9ad435411fe3c866d70b0c5d7e96b1554f0
+SHA1: e654bc3a2d33f7ee4cdd8c7bd8ce13f39f0c3663
+MD5sum: 36efe305abb2f3aec0bd929c5ed5b7ff
+Description: Zabbix network monitoring solution - js
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides the command line utility needed to test javascript code
+ used in Zabbix server or Zabbix proxy.
+
+Package: zabbix-nginx-conf
+Source: zabbix
+Version: 1:5.0.4-1+focalbuild1
+Architecture: all
+Maintainer: Zabbix Packager <info@zabbix.com>
+Installed-Size: 18
+Depends: zabbix-frontend-php, nginx, php-fpm
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: net
+Filename: pool/main/z/zabbix/zabbix-nginx-conf_5.0.4-1+focalbuild1_all.deb
+Size: 6084
+SHA256: 08f20a36a3e360247050220e2d8d1012461928c374edea961f1fc798ec11b235
+SHA1: c1349d8643d6d1e23c717cca0909a40f06a10277
+MD5sum: b212c4a7e50458be1f80931df2bc87b8
+Description: Zabbix network monitoring solution - nginx and php-fpm configuration for front-end
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides automatic configuration of zabbix frontend with nginx web server.
+
+Package: zabbix-proxy-mysql
+Source: zabbix
+Version: 1:5.0.4-1+focalbuild1
+Architecture: arm64
+Maintainer: Zabbix Packager <info@zabbix.com>
+Installed-Size: 2851
+Depends: libc6 (>= 2.29), libcurl4 (>= 7.28.0), libevent-2.1-7 (>= 2.1.8-stable), libldap-2.4-2 (>= 2.4.7), libmysqlclient21 (>= 8.0.11), libodbc1 (>= 2.3.1), libopenipmi0, libpcre3, libsnmp35 (>= 5.8+dfsg), libssh2-1 (>= 1.0), libssl1.1 (>= 1.1.1), libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.0), mysql-client | virtual-mysql-client, fping, adduser, lsb-base
+Suggests: logrotate, virtual-mysql-server
+Conflicts: zabbix-proxy-pgsql, zabbix-proxy-sqite3
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: net
+Filename: pool/main/z/zabbix/zabbix-proxy-mysql_5.0.4-1+focalbuild1_arm64.deb
+Size: 759508
+SHA256: d6f4742e877f205da376f4d7fc7a5eea81a8dfa2793dbf95cdb08ecd724b5678
+SHA1: c39cb159aadb30f012feab6bd6b8b92e33654346
+MD5sum: 9d2277549d40e9fd64aa9694361c5db4
+Description: Zabbix network monitoring solution - proxy (MySQL)
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides the software needed to integrate a host as a Zabbix
+ proxy. It collects information from Zabbix agents, temporarily stores it
+ in a MySQL database and then passes it to a Zabbix server.
+
+Package: zabbix-proxy-pgsql
+Source: zabbix
+Version: 1:5.0.4-1+focalbuild1
+Architecture: arm64
+Maintainer: Zabbix Packager <info@zabbix.com>
+Installed-Size: 2855
+Depends: libc6 (>= 2.29), libcurl4 (>= 7.28.0), libevent-2.1-7 (>= 2.1.8-stable), libldap-2.4-2 (>= 2.4.7), libodbc1 (>= 2.3.1), libopenipmi0, libpcre3, libpq5 (>= 9.0~), libsnmp35 (>= 5.8+dfsg), libssh2-1 (>= 1.0), libssl1.1 (>= 1.1.1), libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.0), fping, adduser, lsb-base
+Suggests: logrotate, postgresql-client, postgresql (>= 8.1)
+Conflicts: zabbix-proxy-mysql, zabbix-proxy-sqlite3
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: net
+Filename: pool/main/z/zabbix/zabbix-proxy-pgsql_5.0.4-1+focalbuild1_arm64.deb
+Size: 757892
+SHA256: f3036690124e4af506721d302d61e8bcbfc82cf2bfaad8a452ca9c3d04faa594
+SHA1: 1e4ac569c4bc30a106faec0ddd96828b8553d658
+MD5sum: 86da21e880acc4ca5bb18ceb39fc131a
+Description: Zabbix network monitoring solution - proxy (PostgreSQL)
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides the software needed to integrate a host as a Zabbix
+ proxy. It collects information from Zabbix agents, temporarily stores it
+ in a PostgreSQL database and then passes it to a Zabbix server.
+
+Package: zabbix-proxy-sqlite3
+Source: zabbix
+Version: 1:5.0.4-1+focalbuild1
+Architecture: arm64
+Maintainer: Zabbix Packager <info@zabbix.com>
+Installed-Size: 2639
+Depends: libc6 (>= 2.29), libcurl4 (>= 7.28.0), libevent-2.1-7 (>= 2.1.8-stable), libldap-2.4-2 (>= 2.4.7), libodbc1 (>= 2.3.1), libopenipmi0, libpcre3, libsnmp35 (>= 5.8+dfsg), libsqlite3-0 (>= 3.5.9), libssh2-1 (>= 1.0), libssl1.1 (>= 1.1.1), libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.0), sqlite3, fping, adduser, lsb-base
+Suggests: logrotate
+Conflicts: zabbix-proxy-mysql, zabbix-proxy-pgsql
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: net
+Filename: pool/main/z/zabbix/zabbix-proxy-sqlite3_5.0.4-1+focalbuild1_arm64.deb
+Size: 705160
+SHA256: c730e47a70cbc3c7d8611d881e4ecf3e34c0d0e5515b8708c454fb0146320f15
+SHA1: 79b64c3ef3acb675d60a3136633dea6ef45b2a41
+MD5sum: 8990737c4e06fd35fdeb4482b916e71a
+Description: Zabbix network monitoring solution - proxy (SQLite3)
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides the software needed to integrate a host as a Zabbix
+ proxy. It collects information from Zabbix agents, temporarily stores it
+ in an SQLite3 database and then passes it to a Zabbix server.
+
+Package: zabbix-sender
+Source: zabbix
+Version: 1:5.0.4-1+focalbuild1
+Architecture: arm64
+Maintainer: Zabbix Packager <info@zabbix.com>
+Installed-Size: 299
+Depends: libc6 (>= 2.17), libpcre3, libssl1.1 (>= 1.1.1), zlib1g (>= 1:1.2.0)
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: net
+Filename: pool/main/z/zabbix/zabbix-sender_5.0.4-1+focalbuild1_arm64.deb
+Size: 109424
+SHA256: 2d2c86b86bbf8d952bb6fd813cab6fc9b6707f5e7c808adbcd9801698452fed3
+SHA1: 74f5457a736dc5a7b6ff440abe3d03ba78495d0b
+MD5sum: 0be685bb8a5c105cd40c7389ab3d0358
+Description: Zabbix network monitoring solution - sender
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides the command line utility needed to send data to
+ Zabbix server or Zabbix proxy.
+
+Package: zabbix-server-mysql
+Source: zabbix
+Version: 1:5.0.4-1+focalbuild1
+Architecture: arm64
+Maintainer: Zabbix Packager <info@zabbix.com>
+Installed-Size: 4810
+Pre-Depends: debconf
+Depends: libc6 (>= 2.29), libcurl4 (>= 7.28.0), libevent-2.1-7 (>= 2.1.8-stable), libldap-2.4-2 (>= 2.4.7), libmysqlclient21 (>= 8.0.11), libodbc1 (>= 2.3.1), libopenipmi0, libpcre3, libsnmp35 (>= 5.8+dfsg), libssh2-1 (>= 1.0), libssl1.1 (>= 1.1.1), libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.0), mysql-client | virtual-mysql-client | default-mysql-client, fping, adduser, lsb-base
+Recommends: snmpd
+Suggests: zabbix-frontend-php, logrotate, virtual-mysql-server
+Conflicts: zabbix-server-pgsql
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: net
+Filename: pool/main/z/zabbix/zabbix-server-mysql_5.0.4-1+focalbuild1_arm64.deb
+Size: 2447652
+SHA256: a6bec09a0d3928a2f9f71bfec4eaade5eb450418116d9477144589522e0ff94e
+SHA1: 5f79f6df4976be3bb871bfa72b98a5269120b657
+MD5sum: c204e0726b3764844a5d1237f58a92a7
+Description: Zabbix network monitoring solution - server (MySQL)
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides the software needed to integrate a host as a Zabbix
+ client. It collects information from Zabbix clients and stores it in a
+ MySQL database.
+
+Package: zabbix-server-pgsql
+Source: zabbix
+Version: 1:5.0.4-1+focalbuild1
+Architecture: arm64
+Maintainer: Zabbix Packager <info@zabbix.com>
+Installed-Size: 4803
+Pre-Depends: debconf
+Depends: libc6 (>= 2.29), libcurl4 (>= 7.28.0), libevent-2.1-7 (>= 2.1.8-stable), libldap-2.4-2 (>= 2.4.7), libodbc1 (>= 2.3.1), libopenipmi0, libpcre3, libpq5 (>= 9.0~), libsnmp35 (>= 5.8+dfsg), libssh2-1 (>= 1.0), libssl1.1 (>= 1.1.1), libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.0), fping, adduser, lsb-base
+Recommends: snmpd
+Suggests: zabbix-frontend-php, logrotate, postgresql-client, postgresql (>= 8.1)
+Conflicts: zabbix-server-mysql
+Homepage: http://www.zabbix.com
+Priority: optional
+Section: net
+Filename: pool/main/z/zabbix/zabbix-server-pgsql_5.0.4-1+focalbuild1_arm64.deb
+Size: 2440008
+SHA256: f3a69057e958f1c9984111b44230b1423c95a7294697a60f04efe3a905bf230d
+SHA1: 1ca3a88309e43394ac34289d5b7d7a1f647b7ada
+MD5sum: 9145399e9460e753849d1abb421ee24d
+Description: Zabbix network monitoring solution - server (PostgreSQL)
+ Zabbix is the ultimate enterprise-level software designed for
+ real-time monitoring of millions of metrics collected from tens of
+ thousands of servers, virtual machines and network devices.
+ .
+ This package provides the software needed to integrate a host as a Zabbix
+ client. It collects information from Zabbix clients and stores it in a
+ PostgreSQL database.
+
